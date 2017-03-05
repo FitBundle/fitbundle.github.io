@@ -1,33 +1,27 @@
+/*!
+ * Ellym - Active Bundle v0.0.1 (http://www.activebundle.com)
+ * Copyright 2017 -2017 Daniel Dixon
+ */
 /*
 	Landed by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
-
 /* Loader */
-
-	body.landing:before, body.landing:after {
-		display: none !important;
-	}
+body.landing:before, body.landing:after {
+  display: none !important; }
 
 /* Icon */
+.icon.alt {
+  color: inherit !important; }
 
-	.icon.alt {
-		color: inherit !important;
-	}
-
-	.icon.major.alt:before {
-		color: #ffffff !important;
-	}
+.icon.major.alt:before {
+  color: #ffffff !important; }
 
 /* Banner */
-
-	#banner:after {
-		background-color: rgba(23, 24, 32, 0.95);
-	}
+#banner:after {
+  background-color: rgba(23, 24, 32, 0.7); }
 
 /* Footer */
-
-	#footer .icons .icon.alt:before {
-		color: #ffffff !important;
-	}
+#footer .icons .icon.alt:before {
+  color: #ffffff !important; }

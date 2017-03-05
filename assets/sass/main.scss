@@ -1310,6 +1310,9 @@
 			margin: 0;
 			position: absolute;
 			top: 0;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 1.5em;
+			letter-spacing: 3px;
 		}
 
 		nav {
@@ -1424,6 +1427,11 @@
 				p {
 					margin: (_size(element-margin) * 0.25) 0 0 0;
 					top: 0;
+					color: #c3c3c3;
+
+					strong {
+						color: white;
+					}
 				}
 			}
 
@@ -1808,6 +1816,9 @@
 					height: 44px;
 					line-height: 44px;
 					text-align: center;
+					font-family: 'Permanent Marker', cursive;
+					font-size: 1.5em;
+					letter-spacing: 5px;
 
 					a {
 						color: inherit;
