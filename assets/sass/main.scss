@@ -614,6 +614,16 @@
 			z-index: 1;
 		}
 
+		&.white {
+			background-color: white;
+			padding: 1em 0;
+
+			img {
+				max-width: 80%;
+				margin: 0 auto;
+			}
+		}
+
 		img {
 			border-radius: _size(border-radius);
 			display: block;

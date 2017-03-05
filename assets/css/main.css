@@ -1847,6 +1847,12 @@ input[type="radio"] + label:before {
     width: 100%;
     height: 100%;
     z-index: 1; }
+  .image.white {
+    background-color: white;
+    padding: 1em 0; }
+    .image.white img {
+      max-width: 80%;
+      margin: 0 auto; }
   .image img {
     border-radius: 4px;
     display: block; }
